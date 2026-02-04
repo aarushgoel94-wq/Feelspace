@@ -1,0 +1,44 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - Soft indigo/lavender gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B7FD9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9B87E8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded square background with gradient -->
+  <rect width="1024" height="1024" rx="232" fill="url(#bgGradient)"/>
+  
+  <!-- Minimalist geometric flower - 5 petals arranged in a circle -->
+  <!-- Using path for precise control and clean rendering -->
+  <g transform="translate(512, 512)">
+    <!-- Create 5 elliptical petals arranged at 72-degree intervals -->
+    
+    <!-- Top petal -->
+    <ellipse cx="0" cy="-110" rx="50" ry="100" fill="#FFFFFF" opacity="0.95"/>
+    
+    <!-- Top-right petal (rotated 72 degrees) -->
+    <ellipse cx="0" cy="0" rx="50" ry="100" fill="#FFFFFF" opacity="0.95" 
+             transform="rotate(72) translate(0, -110)"/>
+    
+    <!-- Bottom-right petal (rotated 144 degrees) -->
+    <ellipse cx="0" cy="0" rx="50" ry="100" fill="#FFFFFF" opacity="0.95" 
+             transform="rotate(144) translate(0, -110)"/>
+    
+    <!-- Bottom-left petal (rotated 216 degrees) -->
+    <ellipse cx="0" cy="0" rx="50" ry="100" fill="#FFFFFF" opacity="0.95" 
+             transform="rotate(216) translate(0, -110)"/>
+    
+    <!-- Top-left petal (rotated 288 degrees) -->
+    <ellipse cx="0" cy="0" rx="50" ry="100" fill="#FFFFFF" opacity="0.95" 
+             transform="rotate(288) translate(0, -110)"/>
+    
+    <!-- Center circle -->
+    <circle cx="0" cy="0" r="55" fill="#FFFFFF"/>
+  </g>
+</svg>
+
+
+
